@@ -1,0 +1,63 @@
+.landing {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.card-body {
+    .card-text {
+        font-size: 1.3rem;
+    }
+
+    .card-title {
+        font-size: 1.8rem;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin: 6rem;
+    margin-top: 5rem;
+    width: fit-content;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content;
+
+    .img {
+        width: 20rem;
+        margin-bottom: 1rem;
+    }
+
+    .product{
+        font-size: 1.6rem;
+    }
+
+    .price {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        color: black;
+    }
+
+    .add-cart {
+        font-size: 1rem;
+    }
+
+    .counter {
+        font-size: 1.4rem;
+        background-color: rgb(238, 235, 235);
+        width: 10rem;
+        text-align: center;
+        margin: 0;
+    }
+
+}
+

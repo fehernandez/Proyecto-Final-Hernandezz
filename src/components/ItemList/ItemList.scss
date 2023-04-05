@@ -1,0 +1,86 @@
+.landing {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.card-body {
+    .card-text {
+        font-size: 1.3rem;
+    }
+
+    .card-title {
+        font-size: 1.8rem;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin: 20rem;
+    margin-top: 5rem;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content;
+
+    .hoodies {
+        width: 15rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        width: fit-content;
+    }
+
+    button {
+        width: fit-content;
+    }
+
+    .price {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .add-cart {
+        font-size: 1rem;
+    }
+
+    .counter {
+        font-size: 1.4rem;
+        background-color: rgb(238, 235, 235);
+        width: 10rem;
+        text-align: center;
+        margin: 0;
+    }
+
+}
+
+.toggler{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    .plusSquare{
+        font-size: 2.2rem;
+    }
+
+    .lessSquare{
+        font-size: 2.5rem;
+    }
+
+    button{
+        border: 0px;
+    }
+
+    margin-bottom: 2rem;
+
+}
